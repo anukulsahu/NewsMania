@@ -65,10 +65,10 @@ export default function AddUser() {
           }}
         />
         <center>
-          <button type="submit" class="btn btn-light my-4">
+          <button type="submit" className="btn btn-light my-4">
             Click to register
           </button>
-          <Link type="button" class="btn btn-danger mx-2" to="/">
+          <Link type="button" className="btn btn-danger mx-2" to="/">
             Cancel
           </Link>
         </center>

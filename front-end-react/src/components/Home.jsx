@@ -50,17 +50,17 @@ export default function Home() {
             : value.urlToImage;
           return (
             <div className="col-3" key={value.url}>
-              <div class="card my-3" style={{ width: "18rem" }}>
+              <div className="card my-3" style={{ width: "18rem" }}>
                 <img
                   src={urlToImage}
                   className="card-img-top"
                   alt="..."
                   style={{ width: "100%", height: "200px" }}
                 />
-                <div class="card-body">
-                  <h5 class="card-title">{title}</h5>
-                  <p class="card-text">{description}...</p>
-                  <a href={value.url} class="btn btn-primary">
+                <div className="card-body">
+                  <h5 className="card-title">{title}</h5>
+                  <p className="card-text">{description}...</p>
+                  <a href={value.url} className="btn btn-primary">
                     {value.source.name}
                   </a>
                 </div>
